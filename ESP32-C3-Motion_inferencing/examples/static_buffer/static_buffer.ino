@@ -43,7 +43,7 @@ void setup()
  */
 void loop()
 {
-    ei_printf("Edge Impulse standalone inferencing (Arduino)\n");
+    ei_printf("Edge Impulse standalone inferencing (RISC-V)\n");
 
     if (sizeof(features) / sizeof(float) != EI_CLASSIFIER_DSP_INPUT_FRAME_SIZE) {
         ei_printf("The size of your 'features' array is not correct. Expected %lu items, but had %lu\n",
